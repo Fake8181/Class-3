@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Form</title></head>
+    <body>
+        <form action="www.google.com">
+            <h1>Student Registration Form</h1>
+            Your Name:<input required type="text" Id="name" placeholder="Name">
+            <br><br>
+            Father's Name:<input type="text" placeholder="Father's Name">
+            <br><br>
+            Mother's Name:<input type="text" placeholder="Mother's Name">
+            <br><br>
+            Phone number:<input type="number" placeholder="Phone number">
+            <br><br>
+            Your Email:<input required type="email" placeholder="Email">
+            <input type="password" placeholder="enter your password">
+            <br><br>
+            Date of Birth:<input required type="date">
+            <br><br>
+            Gender:
+            <input required name="gender" type="radio" id="Male"><label for="">Male</label>
+            <input required name="gender" type="radio" id ="Female"><label for="Female">Female</label>
+            <br><br>
+            Blood Group:<input required type="" >
+            <br><br>
+            Course:
+            <input type="checkbox" id="BBA"><label for="BBA">BBA</label>
+            <input type="checkbox" id="EEE"><label for="EEE">EEE</label>
+            <input type="checkbox" id="CSE"><label for="CSC">CSC</label>
+            <input type="checkbox" id="Pharmacy"><label for="Pharmacy">Pharmacy</label>
+            <input type="checkbox" id="ELL"><label for="ELL">ELL</label>
+            <input type="checkbox" id="EB"><label for="EB">EB</label>
+            <!-- multiple choices selection issues -->
+            <br><br>
+            Address:<input type="text">
+            <br>
+            Division:<select>
+                <option selected disabled>Select your division</option>
+                <option>Dhaka</option>
+                <option>Chattogram</option>
+                <option>Rajshahi</option>
+                <option>Barishal</option>
+                <option>Sylhet</option>
+                <option>Khulna</option>
+            </select>
+            <br><br>
+            Additional Info:<textarea rows="5" cols="20"></textarea>
+            <br>
+            <input type="search" placeholder="search">
+            <br>
+            <input type="url" placeholder="url">
+            <br>
+            <input id="img" type="file" accept=".png.wmv.jpg">
+            <br>
+            <a href="www.download">Download</a>
+            <img src="./man.jpeg" width="100" height="100" alt="" id="img"><label id="img"></label>
+            <br>
+            Dress Code:<input type="color">
+            <br><br><br>
+            <button>Submit</button>
+            <button type="reset">Reset</button>        
+        </form>
+    </body>
+</html>
